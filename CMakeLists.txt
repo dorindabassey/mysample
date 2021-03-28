@@ -11,3 +11,4 @@ set(SOURCES src/main.cpp src/function1.cpp src/function2.cpp)
 #file (GLOB SOURCES "src/*.cpp")
 
 add_executable(mysample ${SOURCES})
+install(TARGETS mysample DESTINATION bin)
